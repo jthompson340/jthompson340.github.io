@@ -98,7 +98,12 @@ nav a:hover {
     padding: 20px;
     text-align: center;
 }
-
+.character-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
 .character-card img {
     width: auto;
     height: 200px;
