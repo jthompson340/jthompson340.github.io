@@ -127,3 +127,16 @@ iframe {
 }
 
 /* ... (other styles) ... */
+.quotes-container {
+    text-align: center; /* Centering the text */
+    font-size: medium; /* Setting the font size to medium */
+}
+
+.quote-right {
+    text-align: right; /* Aligning text to the right */
+    padding-right: 50px; /* Adding indentation from the right */
+}
+.rounded-image {
+    border-radius: 15px; /* Adjust the value to get the desired level of rounding */
+}
+
