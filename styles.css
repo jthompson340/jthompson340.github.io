@@ -1,19 +1,17 @@
-/* styles.css */
+/* General body styles */
 body {
     font-family: 'Papyrus', fantasy;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    background-image: url(twilight-aesthetic-49my6wse14zydfa6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     box-sizing: border-box;
 }
-body {
-    background-image: url(twilight-aesthetic-49my6wse14zydfa6.jpg);
-    background-size: cover; /* This will make sure your image is always covering the whole container */
-    background-repeat: no-repeat; /* This will prevent the image from repeating in case it's too small */
-    background-attachment: fixed; /* This makes the background image fixed on scroll */
-}
 
-
+/* Header styles */
 header {
     background-color: #262626;
     padding: 1em;
@@ -21,6 +19,7 @@ header {
     color: #fff;
 }
 
+/* Navigation styles */
 nav {
     display: flex;
     justify-content: center;
@@ -29,6 +28,8 @@ nav {
 }
 
 nav a {
+    font-family: 'Papyrus', fantasy;
+    font-size: 1.2em;
     color: #06140c;
     padding: 14px 20px;
     text-decoration: none;
@@ -37,11 +38,12 @@ nav a {
 }
 
 nav a:hover {
-    color: #800000; /* Color of the text when hovered over */
-    background-color: #555; /* Background color when hovered over */
-    text-decoration: underline; /* Underline text when hovered over (optional) */
+    color: #800000;
+    background-color: #555;
+    text-decoration: underline;
 }
 
+/* Container styles */
 .container {
     padding: 3em;
     max-width: 800px;
@@ -50,14 +52,14 @@ nav a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.container img {
+.container img, .character-card img {
     max-width: 100%;
     display: block;
     margin: 20px auto;
 }
 
-.container h2 {
-    color: #333;
+.container h2, header h1, .character-card h3 {
+    font-family: 'Papyrus', fantasy;
     font-size: 2em;
     margin-bottom: 20px;
 }
@@ -68,28 +70,10 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-/* ... (other styles) ... */
-
-.quotes-container {
-    text-align: center; /* Centering the text */
-    font-size: medium; /* Setting the font size to medium */
-}
-
-.quote-right {
-    text-align: right; /* Aligning text to the right */
-    padding-right: 50px; /* Adding indentation from the right */
-}
-.rounded-image {
-    border-radius: 15px; /* Adjust the value to get the desired level of rounding */
-}
-
-/* ... (other styles) ... */
-
-
-/* styles.css */
+/* Gallery styles */
 .grid-gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Modified to always have 3 columns */
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -106,21 +90,8 @@ nav a:hover {
 .grid-gallery img:hover {
     transform: scale(1.1);
 }
-/* styles.css */
-iframe {
-    width: 100%;
-    max-width: 600px; /* Or any width you prefer */
-    margin: 20px auto; /* Added margin for spacing between playlists */
-    display: block;
-}
-/* styles.css */
-.character-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 20px;
-}
 
+/* Character card styles */
 .character-card {
     background-color: #b3cccc;
     border-radius: 10px;
@@ -128,16 +99,11 @@ iframe {
     text-align: center;
 }
 
-/* styles.css */
 .character-card img {
-    width: auto; /* Adjust width automatically to maintain aspect ratio */
-    height: 200px; /* Set a specific height for all images */
-    max-width: 100%; /* Ensure image doesn’t overflow the container */
-    display: block; /* Display image as block to apply margin automatically */
-    margin: 0 auto 20px; /* Center image and apply margin at the bottom */
+    width: auto;
+    height: 200px;
     border-radius: 5px;
 }
-
 
 .character-card h3 {
     margin-bottom: 10px;
@@ -147,27 +113,12 @@ iframe {
     margin-bottom: 10px;
 }
 
-/* ... (other styles) ... */
-
-header h1, .character-card h3 {
-    font-family: 'Papyrus', fantasy;
-    font-size: 2em;
-    margin-bottom: 0.5em;
-}
-
-nav a {
-    font-family: 'Papyrus', fantasy;
-    font-size: 1.2em;
-    padding: 0.5em;
-    text-decoration: none;
-    display: inline-block;
-}
-
-nav a:hover {
-    background-color: #f8f8f8;
+/* Various other styles */
+iframe {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: block;
 }
 
 /* ... (other styles) ... */
-
-
-
