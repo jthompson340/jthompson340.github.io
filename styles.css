@@ -154,6 +154,6 @@ iframe {
 /* Height based on width */
 @media (min-width: 600px) {
   .video-grid iframe {
-    height: calc(100vw / 3 - 60px); /* Adjust the height as per the number of columns and gap */
+    height: calc(100vw / 3 - 60px); /* Adjust the height based on number of columns and gap */
   }
 }
