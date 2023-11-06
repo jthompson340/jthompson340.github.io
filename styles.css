@@ -1,4 +1,3 @@
-/* General body styles */
 body {
     font-family: 'Papyrus', fantasy;
     margin: 0;
@@ -11,7 +10,6 @@ body {
     box-sizing: border-box;
 }
 
-/* Header styles */
 header {
     background-color: #262626;
     padding: 1em;
@@ -19,7 +17,6 @@ header {
     color: #fff;
 }
 
-/* Navigation styles */
 nav {
     display: flex;
     justify-content: center;
@@ -43,7 +40,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Container styles */
 .container {
     padding: 3em;
     max-width: 800px;
@@ -70,7 +66,6 @@ nav a:hover {
     margin-bottom: 20px;
 }
 
-/* Gallery styles */
 .grid-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -126,7 +121,6 @@ iframe {
     display: block;
 }
 
-/* Quotes Styles */
 .quotes-container {
     text-align: center; 
     font-size: medium; 
@@ -137,7 +131,6 @@ iframe {
     border-radius: 15px; 
 }
 
-/* Promo Video Styles */
 .video-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
