@@ -128,8 +128,8 @@ iframe {
 
 /* Quotes Styles */
 .quotes-container {
-    text-align: center; /* Centering the text */
-    font-size: medium; /* Setting the font size to medium */
+    text-align: center; 
+    font-size: medium; 
 }
 
 /* Round it out */
@@ -141,8 +141,8 @@ iframe {
 .video-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 20px; /* Space between videos */
-  margin: 20px 0; /* Margin above and below the grid */
+  gap: 20px; 
+  margin: 20px 0; 
 }
 
 .video-grid iframe {
