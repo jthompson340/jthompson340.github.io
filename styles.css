@@ -150,3 +150,18 @@ iframe {
     height: calc(100vw / 3 - 60px); /* height based on columns and gap */
   }
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #84baaa;
+}
